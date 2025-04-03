@@ -1,3 +1,7 @@
+Process to setup node server on local machine
+
+
+
 AUTH API
 1 User Registration  
 Method: POST  
