@@ -1,6 +1,14 @@
 Process to setup node server on local machine
+1 Install Dependancies
+npm install
 
+2 Configure Environment Variables  
+Create a `.env` file in the root of your backend project if not already there. (I have added my .env file in repository)
+    
+3 Start the server
+npm start
 
+I have opened all the IPs in my mongoDB and my database is running on mongo cloud. MongoDB sometimes stop the server. I will try to check regularly that it is running.
 
 AUTH API
 1 User Registration  
