@@ -13,13 +13,15 @@ router.get("/date/:date", taskController.getTasksByDate);
 
 
 
-// Create new task
+// Create new task for the loggedIn user
 router.post("/", taskController.createTask);
 
-// Update task
+// Update task based on Id recieve
 router.put("/:id", taskController.updateTask);
 
-// Delete task
+// Delete task based on Id recieve
 router.delete("/:id", taskController.deleteTask);
+
+router.post("/set-reminder",taskController.setRemider)
 
 module.exports = router;

@@ -25,6 +25,13 @@ const taskSchema = new mongoose.Schema(
       required: true,
       ref: "User",
     },
+    status :{
+      type : String,
+      enum : ["Pending","Completed","Paused"]
+    },
+    reminder: {
+      type: Date,
+    },
   },
   {
     timestamps: true,
